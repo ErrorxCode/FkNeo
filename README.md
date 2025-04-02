@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+For the license keys, Please contact [@x03rror](https://instagram.com/x03rror) on instagram instead of telegram for now
+
 <p align="center"><a href="https://darkreader.org" target="_blank" rel="noreferrer noopener"><img width="250" alt="F**k Neocollab extention" src="/FkNeo.jpeg"></a></p>
 <p align="center">F**K Neo <strong>bypasses</strong> restrictions imposed by <strong>NeoCollab/ExamShield</strong> and allow to do anything in the test easily</p>
 <br/>
