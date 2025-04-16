@@ -1,5 +1,5 @@
 
-<p align="center"><a href="https://darkreader.org" target="_blank" rel="noreferrer noopener"><img width="250" alt="F**k Neocollab extention" src="/FkNeo.jpeg"></a></p>
+<p align="center"><a target="_blank" rel="noreferrer noopener"><img width="250" alt="F**k Neocollab extension" src="/fkneo.png"></a></p>
 <p align="center">F**K Neo <strong>bypasses</strong> restrictions imposed by <strong>NeoCollab/ExamShield</strong> and allow to do anything in the test easily</p>
 <br/>
 <p align="center"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/neoexamshield/deojfdehldjjfmcjcfaojgaibalafifc"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>
