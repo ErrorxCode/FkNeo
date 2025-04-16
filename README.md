@@ -64,8 +64,12 @@ Once the bypass is disabled, you will start getting warnings for switching tabs/
 | Alt + D        | Disable cheating functionality             | Anywhere      |
 | Alt + R        | Re-enable cheating and re-load test window | Anywhere      |
 
-### 👀 Tutorial
-https://github.com/user-attachments/assets/a6228c71-0f1f-4a20-8bb0-41f7b298fbd3
+### 👀 Tutorial & Usage demo
+https://github.com/user-attachments/assets/33edd56a-0097-4928-8857-e41ec06628f1
+
+https://github.com/user-attachments/assets/88efc291-c68a-440b-a53f-6243860571c7
+
+
 
 
 ## ❓ FAQs
