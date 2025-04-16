@@ -3,10 +3,10 @@
 <p align="center">F**K Neo <strong>bypasses</strong> restrictions imposed by <strong>NeoCollab/ExamShield</strong> and allow to do anything in the test easily</p>
 <br/>
 <p align="center"><a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/neoexamshield/deojfdehldjjfmcjcfaojgaibalafifc"><img alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-<a rel="noreferrer noopener" href="https://addons.mozilla.org/firefox/addon/darkreader/"><img alt="Opera Add-ons" src="https://img.shields.io/badge/Opera-141e24.svg?&style=for-the-badge&logo=opera&logoColor=white"></a>
-<a rel="noreferrer noopener" href="https://darkreader.org/safari/"><img alt="Brave Add-ons" src="https://img.shields.io/badge/Brave-141e24.svg?&style=for-the-badge&logo=brave&logoColor=white"></a>
-<a rel="noreferrer noopener" href="https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc/"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
-<a el="noreferrer noopener" href="https://addons.thunderbird.net/thunderbird/addon/darkreader"><img alt="Thunderbird" src="https://img.shields.io/badge/Thunderbird-141e24.svg?&style=for-the-badge&logo=thunderbird&logoColor=white"></a>
+<a rel="noreferrer noopener"><img alt="Opera Add-ons" src="https://img.shields.io/badge/Opera-141e24.svg?&style=for-the-badge&logo=opera&logoColor=white"></a>
+<a rel="noreferrer noopener"><img alt="Brave Add-ons" src="https://img.shields.io/badge/Brave-141e24.svg?&style=for-the-badge&logo=brave&logoColor=white"></a>
+<a rel="noreferrer noopener"><img alt="Edge Addons" src="https://img.shields.io/badge/Edge-141e24.svg?&style=for-the-badge&logo=microsoft-edge&logoColor=white"></a>
+<a el="noreferrer noopener"><img alt="Thunderbird" src="https://img.shields.io/badge/Thunderbird-141e24.svg?&style=for-the-badge&logo=thunderbird&logoColor=white"></a>
 
 <h2 align="center">F**K Neo</h2>
 <br/>
@@ -38,7 +38,7 @@
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.5/FkNeo-v2.5.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
