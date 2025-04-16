@@ -52,6 +52,9 @@
 Once the bypass is disabled, you will start getting warnings for switching tabs/window and all other activities that are not allowed
 
 
+> [!IMPORTANT]
+> For license activation, contact [@x03rror](https://t.me/x03rror?text=Hey,%20I%20want%20to%20purchase%20license%20key) on telegram. You may need to wait for about 48 Hrs in some cases.
+
 ## 🎹 Keyboard shotcuts
 | Shortcut       | Function                                   | Question type |
 |----------------|--------------------------------------------|---------------|
@@ -64,9 +67,30 @@ Once the bypass is disabled, you will start getting warnings for switching tabs/
 ### 👀 Tutorial
 https://github.com/user-attachments/assets/a6228c71-0f1f-4a20-8bb0-41f7b298fbd3
 
-> [!IMPORTANT]
-> For license key, contact [@x03rror](https://t.me/x03rror?text=Hey,%20I%20want%20to%20purchase%20license%20key) on telegram
-> If you got to know about this from someone on whatsapp, you can ask him/her too.
+
+## ❓ FAQs
+**Q.** Will I be caught using this extension?
+
+**Ans.** No!
+
+**Q.** Can I use this extension on MAC/linux
+
+**Ans.** Yes!
+
+**Q.** Can I use this extension without lisence?
+
+**Ans.** No! You need to get lisence first!
+
+**Q.** Can I use my license on multiple devices?
+
+**Ans.** Yes! but not on multiple **accounts**
+
+**Q.** Is there any free trial?
+
+**Ans.** The free trial is for the few days only after every new release! Once the trial period is over, you need to buy lisence
+
+
+
 
 >[!NOTE]
 >If you need any kind of help or facing any kind of issue, Look into the existing issues or create a new one if you couldn't identify the solution. For personal assitance, connect with the developer on instargam.
