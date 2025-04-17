@@ -26,19 +26,21 @@
 
 - **NeoExamShield emulation** - Emulate as official NeoExamShield extention, no need to install it
 - **No entire screen recording** - You can choose any perticular tab/window to record
-- **Screen recording bypassed** - You can stop the screen sharing anytime
+- **Screen recording bypassed**ᴺᵉʷ⭐ - You can stop the screen sharing anytime
 - **Allow tab/window** - Change/Switch between tabs without getting cought
 - **Allow copy/paste** - Copy paste code easily
 - **Turn On/Off bypass** - You can disable the cheating mode using keyboard shotcuts (`Alt + D` for disable, `Alt + R` for re-enable)
 - **No need Neo-Browser** - Attempt test in the normal browser itself
 - **No need Neo-checker** - No need to install and run the malicious neo-checker application
+- **Allow to change IP address**ᴺᵉʷ⭐ - Now you can change IP address to your choise before giving the test
+- **Spoof OS to linux**ᴺᵉʷ⭐ - Make your system looks like linux to the platform
 - **Allow test without access code** - Just start the test without the access code
 - **Autowrite code** - No need to use AI `(Alt + T)`
 - **Auto submit code** - One click code submit with 100% test case passed `(Alt + ctrl + S)`
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.1.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
@@ -56,13 +58,17 @@ Once the bypass is disabled, you will start getting warnings for switching tabs/
 > For license activation, contact [@x03rror](https://t.me/x03rror?text=Hey,%20I%20want%20to%20purchase%20license%20key) on telegram. You may need to wait for about 48 Hrs in some cases.
 
 ## 🎹 Keyboard shotcuts
-| Shortcut       | Function                                   | Question type |
-|----------------|--------------------------------------------|---------------|
-| Alt + Ctrl + S | Resolve all the test cases and proceed     | Coding        |
-| Alt + T        | Auto-type code with 200MS delay            | Coding        |
-| Alt + M        | Choose the correct option                  | MCQ           |
-| Alt + D        | Disable cheating functionality             | Anywhere      |
-| Alt + R        | Re-enable cheating and re-load test window | Anywhere      |
+| Shortcut       	| Function                                   	| Used when   	|
+|----------------	|--------------------------------------------	|-------------	|
+| Alt + Ctrl + S 	| Resolve all the test cases and proceed     	| Coding      	|
+| Alt + T        	| Auto-type code with 200MS delay            	| Coding      	|
+| Alt + M        	| Choose the correct option                  	| MCQ         	|
+| Alt + D        	| Disable cheating functionality             	| Anywhere    	|
+| Alt + R        	| Re-enable cheating and re-load test window 	| Anywhere    	|
+| Shift + P      	| Allow to set custom IP                     	| Before test 	|
+| Shift + O      	| Spoofs OS to linux                         	| Before test 	|
+
+
 
 ### 👀 Tutorial & Usage demo
 https://github.com/user-attachments/assets/33edd56a-0097-4928-8857-e41ec06628f1
