@@ -18,7 +18,7 @@
 > [!CAUTION]
 > This project is intended for educational purposes only. The author does not condone or support any form of cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
 
-> Stay updated and get support by following the developer on [Instagram](https://instagram.com/infrared.x).
+> Stay updated and get support by following the developer on [Instagram](https://instagram.com/x0.rahil).
 
 
 
@@ -40,7 +40,7 @@
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.1.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.2.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
@@ -67,6 +67,7 @@ Once the bypass is disabled, you will start getting warnings for switching tabs/
 | Alt + R        	| Re-enable cheating and re-load test window 	| Anywhere    	|
 | Shift + P      	| Allow to set custom IP                     	| Before test 	|
 | Shift + O      	| Spoofs OS to linux                         	| Before test 	|
+| Shift + A	      | Test Access code bypass	                    | Access code screen |
 
 
 
