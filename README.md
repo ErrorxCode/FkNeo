@@ -18,7 +18,7 @@
 > [!CAUTION]
 > This project is intended for educational purposes only. The author does not condone or support any form of cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
 
-> Stay updated and get support by following the developer on [Instagram](https://instagram.com/x0.rahil).
+> Stay updated and get support by following the developer on [Instagram](https://instagram.com/3rror.xn).
 
 
 
