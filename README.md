@@ -40,7 +40,7 @@
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/3.0/FkNeo-v3.0.zip"><img alt="Download extention" height=40 src="/download.png"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/3.0/FkNeo-v3.0.zip"><img alt="Download extention" height=40 src="/button.png"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
