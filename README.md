@@ -16,51 +16,51 @@
 
 
 > [!CAUTION]
-> This project is intended for educational purposes only. The author does not condone or support any form of cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
+> This project is intended for educational purposes only. The author does not condone or support any cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
 
-> Stay updated by joining the update channel on telegram [Telegram](https://t.me/+6wIrPck7wk04Zjg1).
+> Stay updated by joining the update channel on Telegram [Telegram](https://t.me/+6wIrPck7wk04Zjg1).
 
 
 
 ## ✨ Main Features
 
-- **NeoExamShield emulation** - Emulate as official NeoExamShield extention, no need to install it
-- **No entire screen recording** - You can choose any perticular tab/window to record
+- **NeoExamShield emulation** - Emulate as official NeoExamShield extension, no need to install it
+- **No entire screen recording** - You can choose any particular tab/window to record
 - **Screen recording bypassed**ᴺᵉʷ⭐ - You can stop the screen sharing anytime
-- **Allow tab/window** - Change/Switch between tabs without getting cought
+- **Allow tab/window** - Change/Switch between tabs without getting caught
 - **Allow copy/paste** - Copy paste code easily
-- **Turn On/Off bypass** - You can disable the cheating mode using keyboard shotcuts (`Alt + D` for disable, `Alt + R` for re-enable)
+- **Turn On/Off bypass** - You can disable the cheating mode using keyboard shortcuts (`Alt + D` for disable, `Alt + R` for re-enable)
 - **No need Neo-Browser** - Attempt test in the normal browser itself
-- **No need Neo-checker** - No need to install and run the malicious neo-checker application
-- **Allow to change IP address**ᴺᵉʷ⭐ - Now you can change IP address to your choise before giving the test
-- **Spoof OS to linux**ᴺᵉʷ⭐ - Make your system looks like linux to the platform
+- **No need Neo-checker** - No need to install and run the malicious Neo-checker application
+- **Allow to change IP address**ᴺᵉʷ⭐ - Now you can change IP address to your choice before giving the test
+- **Spoof OS to linux**ᴺᵉʷ⭐ - Make your system look like linux to the platform
 - **Allow test without access code** - Just start the test without the access code
 - **Autowrite code** - No need to use AI `(Alt + T)`
 - **Auto submit code** - One click code submit with 100% test case passed `(Alt + ctrl + S)`
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/2.6/FkNeo-v2.6.2.zip"><img alt="Download extention" height=40 src="https://dabuttonfactory.com/button.png?t=Download extention&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/3.0/FkNeo-v3.0.zip"><img alt="Download extention" height=40 src="/download.png"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
 ## ℹ️ How to install and use?
-1. Firstly download and extract the extention zip from latest release (or the above button)
+1. Firstly, download and extract the extension zip from the latest release (or the above button)
 2. Goto `chrome://extentions`, enable *Developer mode* from the top right.
-3. Click on the *Load unpack* button and select the extracted extention folder.
-4. The extention is now installed. Now you can do everything in your tests.
+3. Click on the *Load unpack* button and select the extracted extension folder.
+4. The extension is now installed. Now you can do everything in your tests.
 
 ⭐ To disable bypass, press Alt + D and to re-enable it, press Alt + R. The exam page will be reloaded on re-enabling the extension.
 Once the bypass is disabled, you will start getting warnings for switching tabs/window and all other activities that are not allowed
 
 
 > [!IMPORTANT]
-> For license activation, contact [@x03rror](https://t.me/x03rror?text=Hey,%20I%20want%20to%20purchase%20license%20key) on telegram. You may need to wait for about 48 Hrs in some cases.
+> For license activation, contact @x03rror on [Telegram](https://t.me/x03rror?text=Hey,%20I%20want%20to%20purchase%20license%20key) or on [Instagram](https://instagram.com/x03rror). You may need to wait for about 48 Hrs in some cases.
 
 ## 🎹 Keyboard shotcuts
 | Shortcut       	| Function                                   	| Used when   	|
 |----------------	|--------------------------------------------	|-------------	|
-| Alt + Ctrl + S 	| Resolve all the test cases and proceed     	| Coding      	|
+| Alt + Ctrl + B 	| Resolve all the test cases and proceed     	| Coding      	|
 | Alt + T        	| Auto-type code with 200MS delay            	| Coding      	|
 | Alt + M        	| Choose the correct option                  	| MCQ         	|
 | Alt + D        	| Disable cheating functionality             	| Anywhere    	|
@@ -88,9 +88,9 @@ https://github.com/user-attachments/assets/88efc291-c68a-440b-a53f-6243860571c7
 
 **Ans.** Yes!
 
-**Q.** Can I use this extension without lisence?
+**Q.** Can I use this extension without a license?
 
-**Ans.** No! You need to get lisence first!
+**Ans.** No! You need to get a license first!
 
 **Q.** Can I use my license on multiple devices?
 
@@ -98,18 +98,18 @@ https://github.com/user-attachments/assets/88efc291-c68a-440b-a53f-6243860571c7
 
 **Q.** Is there any free trial?
 
-**Ans.** The free trial is for the few days only after every new release! Once the trial period is over, you need to buy lisence
+**Ans.** The free trial is for a few days only after every new release! Once the trial period is over, you need to buy license
 
 
 
 
 >[!NOTE]
->If you need any kind of help or facing any kind of issue, Look into the existing issues or create a new one if you couldn't identify the solution. For personal assitance, connect with the developer on instargam.
+>If you need any kind of help or are facing any kind of issue, look into the existing issues or create a new one if you couldn't identify the solution. For personal assistance, connect with any of the sellers on Telegram or Instagram.
 
 
 
 ## Support
-This project comprise of lot's of energy, brainstroming, coding, testing and time. If this project has helped you in any way, please consider giving it a ⭐ to show your support and help it grow! Also *watch* the repo to notfy about updates.
+This project comprises of lot's of energy, brainstorming, coding, testing and time. If this project has helped you in any way, please consider giving it a ⭐ to show your support and help it grow! Also, *watch* the repo to notify about updates.
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula)](https://github.com/piyushsuthar/github-readme-quotes)
 
