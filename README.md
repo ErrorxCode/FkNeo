@@ -94,11 +94,23 @@ https://github.com/user-attachments/assets/88efc291-c68a-440b-a53f-6243860571c7
 
 **Q.** Can I use my license on multiple devices?
 
-**Ans.** Yes! but not on multiple **accounts**
+**Ans.** Yes!
+
+**Q.** Does extension use AI to get the answers?
+
+**Ans.** No!
 
 **Q.** Is there any free trial?
 
-**Ans.** The free trial is for a few days only after every new release! Once the trial period is over, you need to buy license
+**Ans.** The free trial is for a few days only after every new release! Once the trial period is over, you need to buy a license
+
+**Q.** Keyboard shortcuts are not working, what should I do?
+
+**Ans.** Use the popup menu that appears on clicking the extension icon!
+
+**Q.** Can extension be de-activated from the menu?
+
+**Ans.** NO! You can't turn off the extension for a perticular site using the popup menu.
 
 
 
