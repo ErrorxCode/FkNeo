@@ -24,7 +24,7 @@
 
 ## ✨ Main Features
 
-- **NeoExamShield emulation** - Emulate as official NeoExamShield extension, no need to install it
+- **NeoExamShield emulation** - Emulate as an official NeoExamShield extension, no need to install it
 - **No entire screen recording** - You can choose any particular tab/window to record
 - **Screen recording bypassed**ᴺᵉʷ⭐ - You can stop the screen sharing anytime
 - **Allow tab/window** - Change/Switch between tabs without getting caught
@@ -40,7 +40,7 @@
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/3.0/FkNeo-v3.0.zip"><img alt="Download extention" height=40 src="/button.png"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/3.0/FkNeo-v3.1.zip"><img alt="Download extention" height=40 src="/button.png"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
