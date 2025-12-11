@@ -18,7 +18,7 @@
 > [!CAUTION]
 > This project is intended for educational purposes only. The author does not condone or support any cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
 
-> Stay updated by joining the update channel on Telegram [Telegram](https://t.me/xfkneo).
+> Stay updated by following us on [Instagram](https://instagram.com/fkneo.x).
 
 
 
@@ -39,7 +39,7 @@
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/4.0/FkNeo-v4.0.zip"><img alt="Download extention" height=40 src="/button.png"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/4.1/FkNeo-v4.1-hotfix.zip"><img alt="Download extention" height=40 src="/button.png"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
@@ -114,8 +114,9 @@ https://github.com/user-attachments/assets/88efc291-c68a-440b-a53f-6243860571c7
 
 
 
->[!NOTE]
->If you need any kind of help or are facing any kind of issue, look into the existing issues or create a new one if you couldn't identify the solution. For personal assistance, connect with any of the sellers on Telegram or Instagram.
+>[!WARNING]
+> This repository contains closed-source, proprietary code. All rights are reserved by the Developer. Access is governed solely by the [End-User License Agreement](EULA.md) (EULA).
+
 
 
 
