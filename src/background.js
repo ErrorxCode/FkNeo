@@ -5,10 +5,14 @@
 
 // Initialize storage with default values
 chrome.runtime.onInstalled.addListener(() => {
-    chrome.storage.local.get(['autotypeEnabled'], (result) => {
+    chrome.storage.local.get(['autotypeEnabled', 'questionViewerEnabled'], (result) => {
         if (result.autotypeEnabled === undefined) {
             // Set autotype as enabled by default
             chrome.storage.local.set({ autotypeEnabled: true });
+        }
+        if (result.questionViewerEnabled === undefined) {
+            // Set question viewer as enabled by default
+            chrome.storage.local.set({ questionViewerEnabled: true });
         }
     });
 });
@@ -30,6 +34,31 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
                     chrome.tabs.sendMessage(
                         tab.id,
                         { action: 'autotypeStatusChanged', enabled: request.enabled }
+                    ).catch(() => {
+                        // Ignore errors for tabs that don't have content script loaded
+                    });
+                });
+            });
+            sendResponse({ success: true });
+        });
+        return true; // Will respond asynchronously
+    }
+
+    if (request.action === 'getQuestionViewerStatus') {
+        chrome.storage.local.get(['questionViewerEnabled'], (result) => {
+            sendResponse({ questionViewerEnabled: result.questionViewerEnabled !== false });
+        });
+        return true; // Will respond asynchronously
+    }
+
+    if (request.action === 'setQuestionViewerStatus') {
+        chrome.storage.local.set({ questionViewerEnabled: request.enabled }, () => {
+            // Notify all content scripts about the change
+            chrome.tabs.query({}, (tabs) => {
+                tabs.forEach((tab) => {
+                    chrome.tabs.sendMessage(
+                        tab.id,
+                        { action: 'questionViewerStatusChanged', enabled: request.enabled }
                     ).catch(() => {
                         // Ignore errors for tabs that don't have content script loaded
                     });

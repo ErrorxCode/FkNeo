@@ -1,20 +1,29 @@
 /**
  * Popup script for F**k Neo settings panel
- * Handles toggle switch for autotype feature
+ * Handles toggle switches for autotype and question viewer features
  */
 
 const autotypeToggle = document.getElementById('autotypeToggle');
+const questionViewerToggle = document.getElementById('questionViewerToggle');
 
-// Load current autotype status when popup opens
+// Load current status when popup opens
 document.addEventListener('DOMContentLoaded', () => {
+    // Load autotype status
     chrome.runtime.sendMessage({ action: 'getAutotypeStatus' }, (response) => {
         if (response) {
-            updateToggleUI(response.autotypeEnabled);
+            updateToggleUI(autotypeToggle, response.autotypeEnabled);
+        }
+    });
+
+    // Load question viewer status
+    chrome.runtime.sendMessage({ action: 'getQuestionViewerStatus' }, (response) => {
+        if (response) {
+            updateToggleUI(questionViewerToggle, response.questionViewerEnabled);
         }
     });
 });
 
-// Handle toggle click
+// Handle autotype toggle click
 autotypeToggle.addEventListener('click', () => {
     chrome.storage.local.get(['autotypeEnabled'], (result) => {
         const newState = !result.autotypeEnabled;
@@ -23,7 +32,23 @@ autotypeToggle.addEventListener('click', () => {
             { action: 'setAutotypeStatus', enabled: newState },
             (response) => {
                 if (response && response.success) {
-                    updateToggleUI(newState);
+                    updateToggleUI(autotypeToggle, newState);
+                }
+            }
+        );
+    });
+});
+
+// Handle question viewer toggle click
+questionViewerToggle.addEventListener('click', () => {
+    chrome.storage.local.get(['questionViewerEnabled'], (result) => {
+        const newState = !result.questionViewerEnabled;
+        
+        chrome.runtime.sendMessage(
+            { action: 'setQuestionViewerStatus', enabled: newState },
+            (response) => {
+                if (response && response.success) {
+                    updateToggleUI(questionViewerToggle, newState);
                 }
             }
         );
@@ -33,10 +58,10 @@ autotypeToggle.addEventListener('click', () => {
 /**
  * Update toggle UI based on state
  */
-function updateToggleUI(enabled) {
+function updateToggleUI(toggleElement, enabled) {
     if (enabled) {
-        autotypeToggle.classList.add('enabled');
+        toggleElement.classList.add('enabled');
     } else {
-        autotypeToggle.classList.remove('enabled');
+        toggleElement.classList.remove('enabled');
     }
 }

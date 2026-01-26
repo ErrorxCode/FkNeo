@@ -1,9 +1,11 @@
 /**
  * Content Script for F**k Neo
  * Handles autotype feature with toggle control
+ * Includes question viewer for accessing test questions
  */
 
 let autotypeEnabled = true;
+let questionViewerEnabled = true;
 
 // Get initial autotype status from storage
 chrome.runtime.sendMessage({ action: 'getAutotypeStatus' }, (response) => {
@@ -12,11 +14,23 @@ chrome.runtime.sendMessage({ action: 'getAutotypeStatus' }, (response) => {
     }
 });
 
+// Get initial question viewer status from storage
+chrome.runtime.sendMessage({ action: 'getQuestionViewerStatus' }, (response) => {
+    if (response) {
+        questionViewerEnabled = response.questionViewerEnabled;
+    }
+});
+
 // Listen for autotype status changes
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.action === 'autotypeStatusChanged') {
         autotypeEnabled = request.enabled;
         console.log('[F**k Neo] Autotype feature:', autotypeEnabled ? 'enabled' : 'disabled');
+    }
+    
+    if (request.action === 'questionViewerStatusChanged') {
+        questionViewerEnabled = request.enabled;
+        console.log('[F**k Neo] Question Viewer feature:', questionViewerEnabled ? 'enabled' : 'disabled');
     }
 });
 
