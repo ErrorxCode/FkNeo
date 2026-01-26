@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "F**k Neo",
+  "version": "1.2.3",
+  "version_name": "1.2.3 - With Autotype Toggle",
+  "description": "Bypass all the NeoCollab restrictions to cheat in the test. Now with autotype toggle control.",
+  
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "management"
+  ],
+
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.examly.io/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "update_url": "https://clients2.google.com/service/update2/crx"
+}

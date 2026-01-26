@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F**k Neo - Settings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .header {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .header p {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .settings-group {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            background-color: #f9f9f9;
+        }
+
+        .setting-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .setting-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .setting-label {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .setting-label .title {
+            font-weight: 600;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .setting-label .description {
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Toggle Switch */
+        .toggle {
+            position: relative;
+            width: 50px;
+            height: 26px;
+            background-color: #ccc;
+            border-radius: 13px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border: none;
+            padding: 0;
+        }
+
+        .toggle.enabled {
+            background-color: #4CAF50;
+        }
+
+        .toggle::after {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            background-color: white;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: left 0.3s;
+        }
+
+        .toggle.enabled::after {
+            left: 26px;
+        }
+
+        .feature-list {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .feature-list h3 {
+            font-size: 13px;
+            color: #666;
+            font-weight: 600;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .feature-item {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            padding-left: 16px;
+            position: relative;
+        }
+
+        .feature-item::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #667eea;
+        }
+
+        .feature-item kbd {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-family: monospace;
+            font-size: 11px;
+            margin-left: 4px;
+        }
+
+        .info-box {
+            background-color: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            color: #1565c0;
+            margin-top: 16px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 11px;
+            color: #999;
+        }
+
+        .version-info {
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>F**k Neo Settings</h1>
+            <p>Control your extension features</p>
+        </div>
+
+        <div class="settings-group">
+            <div class="setting-item">
+                <div class="setting-label">
+                    <span class="title">Autotype Feature</span>
+                    <span class="description">Auto-type code in answer sections</span>
+                </div>
+                <button class="toggle enabled" id="autotypeToggle" aria-label="Toggle autotype feature"></button>
+            </div>
+        </div>
+
+        <div class="feature-list">
+            <h3>Keyboard Shortcuts</h3>
+            <div class="feature-item">
+                Autowrite Code <kbd>Alt</kbd> + <kbd>T</kbd>
+            </div>
+            <div class="feature-item">
+                Auto Submit <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>S</kbd>
+            </div>
+            <div class="feature-item">
+                Auto MCQ Solver <kbd>Alt</kbd> + <kbd>M</kbd>
+            </div>
+        </div>
+
+        <div class="info-box">
+            ℹ️ Disable the autotype feature if you want to manually control when code is typed.
+        </div>
+
+        <div class="footer">
+            <div>F**k Neo v1.2.3</div>
+            <div class="version-info">Autotype Toggle Edition</div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
