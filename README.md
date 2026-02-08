@@ -34,12 +34,12 @@
 - **Allow to change IP address**ᴺᵉʷ⭐ - Now you can change IP address to your choice before giving the test
 - **Spoof OS to linux**ᴺᵉʷ⭐ - Make your system look like Linux to the platform
 - **Allow test without access code** - Just start the test without the access code
-- **Autowrite code** - No need to use AI `(Alt + T)`
-- **Auto submit code** - One click code submit with 100% test case passed `(Alt + ctrl + S)`
+- **~~Autowrite code - No need to use AI `(Alt + T)`~~
+- **~~Auto submit code - One click code submit with 100% test case passed `(Alt + ctrl + S)`~~
 - **Auto MCQ solver** - Automatically choose the correct option `(Alt + M)`
 - **Keybord shotcuts for utility** - Use features directly by hitting shotcut keys
 
-<a href="https://github.com/ErrorxCode/FkNeo/releases/download/4.1/FkNeo-v4.1-hotfix.zip"><img alt="Download extention" height=40 src="/button.png"></a>
+<a href="https://github.com/ErrorxCode/FkNeo/releases/download/4.2/FkNeo-v4.2-extension.zip"><img alt="Download extention" height=40 src="/button.png"></a>
 
 ![Github All Releases](https://img.shields.io/github/downloads/ErrorxCode/FkNeo/total?label=Downloads&logo=download)
 
