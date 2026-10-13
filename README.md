@@ -14,6 +14,28 @@
 <br/>    
 
 
+> [!Important]
+> ## A Final Goodbye to FkNeo
+>
+> Every project has an ending, but some projects leave behind something that numbers can never measure. **34,000+ downloads. Countless students helped. One journey I will never forget.**
+>
+> Today, with a heavy heart, I'm ending active support for FkNeo. Not because the journey meant any less, but because every chapter, no matter how meaningful, must eventually come to an end. To everyone who used it, supported it, shared it, or simply believed in it — **thank you for making this little project a part of your story.**
+>
+> **I built FkNeo with code, but you gave it a legacy**
+> 
+> — Rahil, Founder of FkNeo
+```
+      You  . . . . .  Me
+       o                 o
+      /|\               /|\
+      / \               / \
+
+   ─────────────────────────
+
+       Some goodbyes
+       never get spoken.
+```
+---
 
 > [!CAUTION]
 > This project is intended for educational purposes only. The author does not condone or support any cheating in exams and is not responsible for any misuse. This is purely a hobby project meant for experimentation and learning.
